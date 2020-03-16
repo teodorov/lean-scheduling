@@ -1,0 +1,8 @@
+[package]
+name = "lean-scheduling"
+version = "0.1"
+lean_version = "leanprover-community/lean:3.6.1"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "c240fcb38cfdbe15b790f8f62dae391e194277bd"}
